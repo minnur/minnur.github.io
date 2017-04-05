@@ -72,6 +72,28 @@ section.picture-wrapper .picture {
   border-bottom-left-radius: 50% 50%;
 }
 
+section.social-wrapper .section-inner {
+  padding: 40px 0 0px;
+}
+
+section.social-wrapper .link {
+  display: inline-block;
+  margin: 5px;
+}
+
+section.social-wrapper .link a,
+section.social-wrapper .link .fa {
+  color: #b5b5b5;
+  font-size: 12px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+section.social-wrapper .link a:hover,
+section.social-wrapper .link .fa:hover {
+  color: #565656;
+}
+
 /* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
 .tooltipster-default {
   border-radius: 5px; 
@@ -329,7 +351,6 @@ section.picture-wrapper .picture {
   opacity: 0;
 }
 
-
 /* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
 .tooltipster-content-changing {
   opacity: 0.5;
@@ -346,6 +367,7 @@ section.picture-wrapper .picture {
   background: #2a2a2a;
   color: #fff;
 }
+
 .tooltipster-minnur .tooltipster-content {
   font-family: 'Courier', monospace;
   font-size: 14px;
@@ -366,6 +388,15 @@ section.picture-wrapper .picture {
   section.picture-wrapper .section-inner {
     padding: 10px 0 10px;
   }
+
+  section.social-wrapper .section-inner {
+    padding: 0px 0 0px;
+  }
+
+  section.social-wrapper .link {
+    display: block;
+    margin: 5px;
+  }
 }
 
 @media only screen and (min-width: 570px) and (max-width: 768px) {
@@ -385,6 +416,10 @@ section.picture-wrapper .picture {
     font-size: 18px;
     width: 75%; }
 
+  section.social-wrapper .section-inner {
+    padding: 20px 0 0px;
+  }
+
   section.picture-wrapper .picture {
     width: 20%;
   }
@@ -398,5 +433,14 @@ section.picture-wrapper .picture {
 
   section.picture-wrapper .picture {
     width: 30%;
+  }
+
+  section.social-wrapper .link {
+    margin: 10px;
+  }
+
+  section.social-wrapper .link a,
+  section.social-wrapper .link .fa {
+    font-size: 14px;
   }
 }
