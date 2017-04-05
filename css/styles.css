@@ -425,6 +425,10 @@ section.social-wrapper .link .fa:hover {
     font-size: 18px;
     width: 75%; }
 
+  span.linebreak.large {
+    display: block;
+  }
+
   section.social-wrapper .section-inner {
     padding: 20px 0 0px;
   }
@@ -450,6 +454,10 @@ section.social-wrapper .link .fa:hover {
 
   section.social-wrapper .link {
     margin: 10px;
+  }
+
+  span.linebreak.large {
+    display: block;
   }
 
   section.social-wrapper .link a,
