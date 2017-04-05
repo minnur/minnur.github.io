@@ -378,6 +378,7 @@ section.social-wrapper .link .fa:hover {
 @media only screen and (max-width: 570px) {
   section.hero p.intro {
     font-weight: 300;
+    margin: 20px auto;
     font-size: 16px;
     width: 85%; }
 
