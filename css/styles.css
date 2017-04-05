@@ -386,6 +386,7 @@ section.social-wrapper .link .fa:hover {
   }
 
   section.picture-wrapper .section-inner {
+    margin: 5px auto;
     padding: 10px 0 10px;
   }
 
