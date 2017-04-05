@@ -1,0 +1,8 @@
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /css/
+Disallow: /js/
+# Files
+Disallow: /resume.pdf
+Disallow: /resume.doc
