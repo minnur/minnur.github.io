@@ -411,6 +411,10 @@ section.social-wrapper .link .fa:hover {
   section.picture-wrapper .picture {
     width: 25%;
   }
+
+  section.picture-wrapper .section-inner {
+    padding: 20px 0 20px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
@@ -421,6 +425,10 @@ section.social-wrapper .link .fa:hover {
 
   section.social-wrapper .section-inner {
     padding: 20px 0 0px;
+  }
+
+  section.picture-wrapper .section-inner {
+    padding: 20px 0 20px;
   }
 
   section.picture-wrapper .picture {
