@@ -81,16 +81,14 @@ section.social-wrapper .link {
   margin: 5px;
 }
 
-section.social-wrapper .link a,
-section.social-wrapper .link .fa {
+section.social-wrapper .link a {
   color: #b5b5b5;
   font-size: 12px;
   text-decoration: none;
   border-bottom: none;
 }
 
-section.social-wrapper .link a:hover,
-section.social-wrapper .link .fa:hover {
+section.social-wrapper .link a:hover {
   color: #565656;
 }
 
