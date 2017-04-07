@@ -1,6 +1,7 @@
 # Directories
 Disallow: /css/
 Disallow: /js/
+Disallow: /src/
 # Files
 Disallow: /resume.pdf
 Disallow: /resume.doc
