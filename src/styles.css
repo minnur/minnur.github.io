@@ -492,7 +492,7 @@ section.social-wrapper .link a.upwork:hover {
   }
 }
 
-@media only screen and (min-width: 1850px) {
+@media only screen and (min-width: 1650px) {
   section.hero p.intro {
     font-size: 28px; }
 
