@@ -92,6 +92,34 @@ section.social-wrapper .link a:hover {
   color: #565656;
 }
 
+section.social-wrapper .link a.stackoverflow:hover {
+  color: #F48024;
+}
+
+section.social-wrapper .link a.github:hover {
+  color: #24292e;
+}
+
+section.social-wrapper .link a.twitter:hover {
+  color: #1da1f2;
+}
+
+section.social-wrapper .link a.linkedin:hover {
+  color: #0077b5;
+}
+
+section.social-wrapper .link a.drupal:hover {
+  color: #0678be;
+}
+
+section.social-wrapper .link a.wordpress:hover {
+  color: #999999;
+}
+
+section.social-wrapper .link a.upwork:hover {
+  color: #6fda44;
+}
+
 /* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
 .tooltipster-default {
   border-radius: 5px; 
