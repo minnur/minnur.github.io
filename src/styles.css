@@ -428,6 +428,12 @@ section.social-wrapper .link a.upwork:hover {
   span.linebreak {
     display: block;
   }
+
+  .tooltipster-minnur .tooltipster-content {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px 8px;
+  }
 }
 
 @media only screen and (min-width: 570px) and (max-width: 768px) {
@@ -442,6 +448,12 @@ section.social-wrapper .link a.upwork:hover {
 
   section.picture-wrapper .section-inner {
     padding: 20px 0 20px;
+  }
+
+  .tooltipster-minnur .tooltipster-content {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px 8px;
   }
 }
 
@@ -465,6 +477,12 @@ section.social-wrapper .link a.upwork:hover {
 
   section.picture-wrapper .picture {
     width: 20%;
+  }
+
+  .tooltipster-minnur .tooltipster-content {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px 8px;
   }
 }
 
@@ -498,5 +516,11 @@ section.social-wrapper .link a.upwork:hover {
 
   section.picture-wrapper .picture {
     width: 40%;
+  }
+
+  .tooltipster-minnur .tooltipster-content {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 12px;
   }
 }
