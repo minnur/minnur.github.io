@@ -72,6 +72,16 @@ section.picture-wrapper .picture {
   border-bottom-left-radius: 50% 50%;
 }
 
+section.read-more-wrapper div a {
+  color: #38add1;
+  font-weight: 400;
+  border-bottom: none;
+}
+
+section.read-more-wrapper div a:hover {
+  color: #ef6c00;
+}
+
 section.social-wrapper .section-inner {
   padding: 40px 0 0px;
 }
@@ -400,6 +410,68 @@ section.social-wrapper .link a.upwork:hover {
   line-height: 16px;
   padding: 8px 10px;
 }
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.animation-1 {
+  -webkit-font-smoothing: antialiased;
+  -webkit-transform: translateZ(0);
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 0s;
+  animation-duration: 1s;
+  animation-delay: 0s; }
+
+.animation-2 {
+  -webkit-font-smoothing: antialiased;
+  -webkit-transform: translateZ(0);
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0.25s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 0.25s;
+  animation-duration: 1s;
+  animation-delay: 0.25s; }
+
+.animation-3 {
+  -webkit-font-smoothing: antialiased;
+  -webkit-transform: translateZ(0);
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0.55s;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 0.55s;
+  animation-duration: 1s;
+  animation-delay: 0.55s; }
 
 @media only screen and (max-width: 570px) {
   section.hero p.intro {
