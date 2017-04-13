@@ -1,3 +1,4 @@
+User-Agent: *
 # Directories
 Disallow: /css/
 Disallow: /js/
