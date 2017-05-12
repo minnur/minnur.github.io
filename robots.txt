@@ -6,3 +6,5 @@ Disallow: /src/
 # Files
 Disallow: /resume.pdf
 Disallow: /resume.doc
+Disallow: /resume-short.pdf
+Disallow: /resume-short.doc
