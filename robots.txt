@@ -7,6 +7,6 @@ Disallow: /src/
 Disallow: /resume.pdf
 Disallow: /resume.doc
 Disallow: /resume.odt
-Disallow: /resume-short.pdf
-Disallow: /resume-short.doc
-Disallow: /resume-short.odt
+Disallow: /resume/resume-long.pdf
+Disallow: /resume/resume-long.doc
+Disallow: /resume/resume-long.odt
