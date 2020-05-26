@@ -32,10 +32,16 @@
     if (e.target.checked) {
       body.addClass(darkmode_class);
       picture.attr('src', darkmode_image);
+      if (typeof ga === 'function') {
+        ga('send', 'event', 'Toggle', 'click', darkmode_image);
+      }
     }
     else {
       body.removeClass(darkmode_class);
       picture.attr('src', regular_image);
+      if (typeof ga === 'function') {
+        ga('send', 'event', 'Toggle', 'click', 'light');
+      }
     }    
   }
 
