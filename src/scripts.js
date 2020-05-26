@@ -7,6 +7,9 @@
   var color_scheme = '(prefers-color-scheme: dark)';
   var darkmode_class = 'darkmode';
 
+  var toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  var currentTheme = localStorage.getItem('theme');
+
   $(document).ready(function() {
 
     $('.tooltip').tooltipster({theme: 'tooltipster-minnur'});
@@ -21,6 +24,7 @@
   if (window.matchMedia && window.matchMedia(color_scheme).matches) {
     body.addClass(darkmode_class);
     picture.attr('src', darkmode_image);
+    toggleSwitch.checked = true;
   }
 
   window.matchMedia(color_scheme).addEventListener('change', function(e) {
@@ -33,9 +37,6 @@
       picture.attr('src', regular_image);
     }
   });
-
-  var toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-  var currentTheme = localStorage.getItem('theme');
 
   if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
