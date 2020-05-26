@@ -10,17 +10,6 @@
   var toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
   var currentTheme = localStorage.getItem('theme');
 
-  $(document).ready(function() {
-
-    $('.tooltip').tooltipster({theme: 'tooltipster-minnur'});
-    if (typeof ga === 'function') {
-      $('a').on('click', function(e) {
-        ga('send', 'event', 'Link', 'click', $(this).attr('href'));
-      });
-    }
-
-  });
-
   if (window.matchMedia && window.matchMedia(color_scheme).matches) {
     body.addClass(darkmode_class);
     picture.attr('src', darkmode_image);
@@ -61,5 +50,14 @@
   }
 
   toggleSwitch.addEventListener('change', switchTheme, false);
+
+  $(document).ready(function() {
+    $('.tooltip').tooltipster({theme: 'tooltipster-minnur'});
+    if (typeof ga === 'function') {
+      $('a').on('click', function(e) {
+        ga('send', 'event', 'Link', 'click', $(this).attr('href'));
+      });
+    }
+  });
 
 })(jQuery);
