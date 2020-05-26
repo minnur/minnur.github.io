@@ -1,5 +1,12 @@
 (function($) {
 
+  var regular_image = '/images/minnur.jpg';
+  var darkmode_image = '/images/minnur-darkmode.jpg';
+  var picture = $('.circular--square.picture');
+  var body = $('body');
+  var color_scheme = '(prefers-color-scheme: dark)';
+  var darkmode_class = 'darkmode';
+
   $(document).ready(function() {
 
     $('.tooltip').tooltipster({theme: 'tooltipster-minnur'});
@@ -11,16 +18,19 @@
 
   });
 
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    $('body').addClass('darkmode');
+  if (window.matchMedia && window.matchMedia(color_scheme).matches) {
+    body.addClass(darkmode_class);
+    picture.attr('src', darkmode_image);
   }
 
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+  window.matchMedia(color_scheme).addEventListener('change', function(e) {
     if (e.matches) {
-      $('body').addClass('darkmode');
+      body.addClass(darkmode_class);
+      picture.attr('src', darkmode_image);
     }
     else {
-      $('body').removeClass('darkmode');
+      body.removeClass(darkmode_class);
+      picture.attr('src', regular_image);
     }
   });
 
