@@ -16,7 +16,7 @@ body {
   background-color: #FFF; }
 
 body.darkmode {
-  background-color: transparent; }
+  background-color: #000; }
 
 a {
   color: #333333;
