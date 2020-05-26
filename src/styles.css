@@ -616,6 +616,26 @@ input:checked + .slider:before {
     line-height: 14px;
     padding: 6px 8px;
   }
+
+  nav {
+    right: 20px;
+    top: 10px;
+  }
+
+  .theme-switch {
+    width: 50px;
+    height: 20px;
+  }
+
+  .slider.round {
+    border-radius: 22px;
+  }
+
+  .slider:before {
+    bottom: 2px;
+    height: 16px;
+    width: 16px;
+  }
 }
 
 @media only screen and (min-width: 570px) and (max-width: 768px) {
