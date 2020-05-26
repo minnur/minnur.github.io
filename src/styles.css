@@ -7,11 +7,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  background-color: #FFF;
   transition: all .2s linear;
   -o-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -webkit-transition: all .2s linear; }
+
+body {
+  background-color: #FFF; }
+
+body.darkmode {
+  background-color: transparent; }
 
 a {
   color: #333333;
@@ -23,6 +28,12 @@ a {
   -webkit-transition: all .2s linear;  }
   a:hover {
   border-bottom: 1px solid #ef6c00; }
+
+body.darkmode a {
+  border-bottom: 1px solid #ef6c00;}
+
+body.darkmode a:hover {
+  border-bottom: 1px solid #fff;}
 
 a.noborder {
   border-bottom: none;
@@ -127,6 +138,34 @@ section.social-wrapper .link a.wordpress:hover {
 }
 
 section.social-wrapper .link a.upwork:hover {
+  color: #6fda44;
+}
+
+body.darkmode section.social-wrapper .link a.stackoverflow {
+  color: #F48024;
+}
+
+body.darkmode section.social-wrapper .link a.github {
+  color: #24292e;
+}
+
+body.darkmode section.social-wrapper .link a.twitter {
+  color: #1da1f2;
+}
+
+body.darkmode section.social-wrapper .link a.linkedin {
+  color: #0077b5;
+}
+
+body.darkmode section.social-wrapper .link a.drupal {
+  color: #0678be;
+}
+
+body.darkmode section.social-wrapper .link a.wordpress {
+  color: #999999;
+}
+
+body.darkmode section.social-wrapper .link a.upwork {
   color: #6fda44;
 }
 
