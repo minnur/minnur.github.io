@@ -35,7 +35,8 @@ body.darkmode a {
 body.darkmode a:hover {
   border-bottom: 1px solid #fff;}
 
-a.noborder {
+a.noborder,
+body.darkmode a.noborder {
   border-bottom: none;
 }
 
