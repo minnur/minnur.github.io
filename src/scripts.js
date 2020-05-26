@@ -52,7 +52,7 @@
       picture.attr('src', darkmode_image);
     }
     else {
-      document.documentElement.setAttribute('data-theme', 'light');
+      document.documentElement.setAttribute('data-theme', '');
       localStorage.setItem('theme', '');
       body.removeClass(darkmode_class);
       picture.attr('src', regular_image);
