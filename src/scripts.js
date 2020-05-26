@@ -11,4 +11,17 @@
 
   });
 
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    $('body').addClass('darkmode');
+  }
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+    if (e.matches) {
+      $('body').addClass('darkmode');
+    }
+    else {
+      $('body').removeClass('darkmode');
+    }
+  });
+
 })(jQuery);
