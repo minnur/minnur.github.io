@@ -141,6 +141,10 @@ section.social-wrapper .link a.upwork:hover {
   color: #6fda44;
 }
 
+body.darkmode section.social-wrapper .link a:hover {
+  color: #fff;
+}
+
 body.darkmode section.social-wrapper .link a.stackoverflow {
   color: #F48024;
 }
