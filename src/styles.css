@@ -30,6 +30,7 @@ a {
   border-bottom: 1px solid #ef6c00; }
 
 body.darkmode a {
+  color: #a7a7a7;
   border-bottom: 1px solid #ef6c00;}
 
 body.darkmode a:hover {
