@@ -18,6 +18,22 @@ body {
 body.darkmode {
   background-color: #000; }
 
+.day-icon {
+  display: inline-block;
+}
+
+.night-icon {
+  display: none;
+}
+
+body.darkmode .day-icon {
+  display: none;
+}
+
+body.darkmode .night-icon {
+  display: inline-block;
+}
+
 a {
   color: #333333;
   border-bottom: 1px solid #000;
@@ -719,6 +735,10 @@ input:checked + .slider:before {
 
   section.picture-wrapper .picture {
     width: 40%;
+  }
+
+  section .section-inner {
+    max-width: 1050px;
   }
 
   .tooltipster-minnur .tooltipster-content {
