@@ -472,6 +472,12 @@ body.darkmode section.social-wrapper .link a.upwork {
   padding: 8px 10px;
 }
 
+body.darkmode .tooltipster-minnur {
+  border-bottom: 0px solid #c76eff;
+  background: #fff;
+  color: #2a2a2a;
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
