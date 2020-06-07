@@ -34,6 +34,12 @@ body.darkmode .night-icon {
   display: inline-block;
 }
 
+.downloads {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
 a {
   color: #333333;
   border-bottom: 1px solid #000;
@@ -410,8 +416,7 @@ body.darkmode section.social-wrapper .link a.upwork {
   -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15); 
 }
-.tooltipster-fall-show {
-}
+
 .tooltipster-fall.tooltipster-dying {
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -683,6 +688,10 @@ input:checked + .slider:before {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .downloads {
+    left: 50px;
+    top: 60px;
+  }
   section.hero p.intro {
     font-weight: 300;
     font-size: 18px;
@@ -712,6 +721,10 @@ input:checked + .slider:before {
 }
 
 @media only screen and (min-width: 1200px) {
+  .downloads {
+    left: 50px;
+    top: 60px;
+  }
   section.hero p.intro {
     font-weight: 300;
     font-size: 26px;
@@ -736,6 +749,10 @@ input:checked + .slider:before {
 }
 
 @media only screen and (min-width: 1650px) {
+  .downloads {
+    left: 50px;
+    top: 60px;
+  }
   section.hero p.intro {
     font-size: 28px; }
 

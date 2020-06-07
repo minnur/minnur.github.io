@@ -7,24 +7,24 @@
   var color_scheme = '(prefers-color-scheme: dark)';
   var darkmode_class = 'darkmode';
 
-  var toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  var darkModeSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
   if (window.matchMedia && window.matchMedia(color_scheme).matches) {
     body.addClass(darkmode_class);
     picture.attr('src', darkmode_image);
-    toggleSwitch.checked = true;
+    darkModeSwitch.checked = true;
   }
 
   window.matchMedia(color_scheme).addListener(function(e) {
     if (e.matches) {
       body.addClass(darkmode_class);
       picture.attr('src', darkmode_image);
-      toggleSwitch.checked = true;
+      darkModeSwitch.checked = true;
     }
     else {
       body.removeClass(darkmode_class);
       picture.attr('src', regular_image);
-      toggleSwitch.checked = false;
+      darkModeSwitch.checked = false;
     }
   });
 
@@ -45,7 +45,7 @@
     }    
   }
 
-  toggleSwitch.addEventListener('change', switchTheme);
+  darkModeSwitch.addEventListener('change', switchTheme);
 
   $(document).ready(function() {
     $('.tooltip').tooltipster({theme: 'tooltipster-minnur'});
